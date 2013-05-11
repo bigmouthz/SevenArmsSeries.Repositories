@@ -13,33 +13,34 @@ namespace SevenArmsSeries.Repositories
         /// <summary>
         /// 是否分页
         /// </summary>
-        public bool canpaging { get; set; }
+        public bool IsPaging { get; set; }
 
-        private int _pageindex;
+        private int _pageIndex;
         /// <summary>
         /// 分页情况下的，当前页面，下标为1起
         /// </summary>
-        public int pageindex { get { return _pageindex <= 0 ? 1 : _pageindex; } set { _pageindex = value; } }
+        public int PageIndex { get { return _pageIndex <= 0 ? 1 : _pageIndex; } set { _pageIndex = value; } }
 
-        private int _pagesize;
+        private int _pageSize;
         /// <summary>
         /// 分页情况下的，页面尺寸，最少为1起
         /// </summary>
-        public int pagesize { get { return _pagesize <= 0 ? 1 : _pagesize; } set { _pagesize = value; } }
-
+        public int PageSize { get { return _pageSize <= 0 ? 1 : _pageSize; } set { _pageSize = value; } }
   
         /// <summary>
         /// 是否启用页面缓存，仅当页面缓存有效时才有用
         /// </summary>
-        public bool cancache { get; set; }
+        public bool IsCachePage { get; set; }
+
         /// <summary>
         /// 恒等于 启用分页下的当前页面（后台无意义，前台用于控制用）
         /// </summary>
-        public int cachepageindex { get; set; }
+        public int _cachePageIndex { get; set; }
+
         /// <summary>
         /// 缓存情况下，缓存页面数
         /// </summary>
-        public int cahcepagecount { get; set; }
+        public int CahcePageCount { get; set; }
 
     }
 }

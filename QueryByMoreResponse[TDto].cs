@@ -15,6 +15,7 @@ namespace SevenArmsSeries.Repositories
         /// 返回总记录数
         /// </summary>
         public int TotalRowCount { get; set; }
+
         /// <summary>
         /// 返回的记录集
         /// </summary>

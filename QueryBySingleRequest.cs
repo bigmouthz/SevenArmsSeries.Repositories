@@ -10,6 +10,8 @@ namespace SevenArmsSeries.Repositories
     /// </summary>
     public class QueryBySingleRequest:Request
     {
+        public static string DefaultNullParamPlus = " 1=1 ";
+
         private string _paramPlus = string.Empty;
         /// <summary>
         /// 查询条件 用于复杂的查询页面，接收前台拼接好的sql语句条件 用于字符串替换默认为{0}
@@ -18,7 +20,7 @@ namespace SevenArmsSeries.Repositories
         {
             get
             {
-                return string.IsNullOrWhiteSpace(_paramPlus) ? " 1=1 " : _paramPlus;
+                return string.IsNullOrWhiteSpace(_paramPlus) ? DefaultNullParamPlus : _paramPlus;
             }
             set { _paramPlus = value; }
         }

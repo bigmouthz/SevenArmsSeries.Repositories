@@ -1,0 +1,5 @@
+D:\GitHub\SevenArmsSeries.Repositories\bin\Debug\SevenArmsSeries.Repositories.dll
+D:\GitHub\SevenArmsSeries.Repositories\bin\Debug\SevenArmsSeries.Repositories.pdb
+D:\GitHub\SevenArmsSeries.Repositories\obj\Debug\ResolveAssemblyReference.cache
+D:\GitHub\SevenArmsSeries.Repositories\obj\Debug\SevenArmsSeries.Repositories.dll
+D:\GitHub\SevenArmsSeries.Repositories\obj\Debug\SevenArmsSeries.Repositories.pdb

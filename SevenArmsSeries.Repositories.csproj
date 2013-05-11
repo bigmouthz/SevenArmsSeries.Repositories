@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CommandRequest.cs" />
     <Compile Include="CommandResponse.cs" />
+    <Compile Include="ReposityEntity.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="IQueryByCount.cs" />
     <Compile Include="IQueryByMore[TDto].cs" />

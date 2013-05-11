@@ -13,7 +13,7 @@ namespace SevenArmsSeries.Repositories
         /// <summary>
         /// 执行有无成功
         /// </summary>
-        public bool Verdict { get; set; }
+        public bool ResultState { get; set; }
 
         /// <summary>
         /// 返回执行纪录情况

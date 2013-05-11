@@ -8,7 +8,7 @@ namespace SevenArmsSeries.Repositories
     public class Request
     {
         /// <summary>
-        /// 唯一编码
+        /// 请求主体或标识约定
         /// </summary>
         public string Guid { get; set; }
 
